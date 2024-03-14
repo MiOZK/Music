@@ -36,7 +36,7 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("AFROTOMusic.plugins" + all_module)
+        importlib.import_module("azaimMusic.plugins" + all_module)
     LOGGER("ميــوزك الزعيم").info("تم تحميل الاضافات ...✓")
     await userbot.start()
     await Zelzaly.start()
